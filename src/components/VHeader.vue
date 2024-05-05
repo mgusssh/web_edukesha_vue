@@ -9,7 +9,8 @@ document.addEventListener("DOMContentLoaded", function() {
 </script>
 
 <template>
-  <div class="body-wraper">
+
+    <div class="body-wraper">
         <header class="header">
             <nav class="navigation">
                 <div class="container">
@@ -45,13 +46,13 @@ document.addEventListener("DOMContentLoaded", function() {
                                     </li>
                                 </ul>
                                 <div class="navigation__menu">
-                                    <div class="navigation__menu__street">
+                                    <div class="navigation__menu-street">
                                         г Сургут, ул Базовая, д. 34, офис 10
                                         <br> ОГРН 1238600001200
                                         <br> ИНН 8602309464
                                     </div>
                                     <br>
-                                    <div class="navigation__menu__copyright">
+                                    <div class="navigation__menu-copyright">
                                         ООО Дотсолюшн © 2023
                                     </div>
                                 </div>
@@ -62,6 +63,7 @@ document.addEventListener("DOMContentLoaded", function() {
             </nav>
         </header>
     </div>
+
 </template>
 
 <style scoped>

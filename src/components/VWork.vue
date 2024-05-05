@@ -33,7 +33,7 @@ const work = [
             <div class="container">
                 <h2>Как это работает?</h2>
                 <div class="row">
-                    <div class="col-12 col-sm-6 col-lg-4" 
+                    <div class="col-sm-6 col-lg-4" 
                         v-for="(item, index) in work"
                         :key="index"
                     >

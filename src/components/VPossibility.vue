@@ -48,8 +48,7 @@ onMounted(() => {
     pagination: {
       el: ".swiper-pagination",
     },
-    mousewheel: true,
-    keyboard: true, 
+    mousewheel: true, 
     slidesPerView: 1,
     breakpoints: {
         640: {
