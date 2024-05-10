@@ -38,6 +38,7 @@ const possibility = [
 ]
 
 import Swiper from 'swiper';
+// import 'swiper/swiper-bundle.css'
 import { onMounted } from 'vue'
 import {Navigation, Pagination} from "swiper/modules";
 
